@@ -1,0 +1,14 @@
+services:
+  pinfix:
+    container_name: pinfix
+    image: ghcr.io/jonaslong/fixuppinterest:latest
+    # build: . # Use instead of "image" if building locally
+    # ports:  # Uncomment to expose ports (not recommended)
+    #  - 8080:8080
+    restart: unless-stopped
+
+# Uncomment to use in a docker network:
+#networks:
+#  default:
+#    name: network1
+#    external: true
