@@ -80,4 +80,12 @@
 		</pluginRepository>
 	</pluginRepositories>
 
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/pinfix/fixuppinterest</url>
+    </repository>
+  </distributionManagement>
+
 </project>
