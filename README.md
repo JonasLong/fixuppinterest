@@ -3,7 +3,7 @@
 
 ## About
 
-A simple webservice to that allows url-shortened Pinterest links (like `https://pin.it/<some ID>`) to have their content automatically embedded on other social media sites. Comparable to fixup- and vx- sites for other social media.
+A simple webservice that allows url-shortened Pinterest links (like `https://pin.it/<some ID>`) to have their content automatically embedded on other social media sites. Comparable to fixup- and vx- sites for other social media.
 
 This project was built from a SpringBoot REST template into a fully functioning dockerized application, complete with CI publishing in ~4 hours.
 
